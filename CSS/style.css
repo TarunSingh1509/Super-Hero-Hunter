@@ -6,7 +6,7 @@
 /* styling for background image */
 body{
     background-image: url(../Images/marvel.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
 }
 /* heading styling */
@@ -83,7 +83,7 @@ h1{
 }
 
 .search-results{
-    width: auto;
+    width: fit-content;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -92,7 +92,7 @@ h1{
     margin-top: 5px;
     border-radius: 50px;
     overflow: hidden;
-    height: 10vh;
+    height: fit-content;
 }
 
 .search-results>img{

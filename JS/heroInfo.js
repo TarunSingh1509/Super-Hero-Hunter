@@ -67,8 +67,8 @@ window.addEventListener('resize', function () {
      let landscapeImage = document.getElementById('landscapeImage');
 
      if (document.body.clientWidth < 678) {
-          portraitImage.style.display = "none";
-          landscapeImage.style.display = "block";
+          portraitImage.style.display = "block";
+          // landscapeImage.style.display = "block";
      } else {
           landscapeImage.style.display = "none";
           portraitImage.style.display = "block";

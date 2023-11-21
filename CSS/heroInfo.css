@@ -1,11 +1,12 @@
 *{
+    font-family: sans-serif;
     margin: 0px;
     padding: 0px;
 }
 /* style for background image */
 body{
     background-image: url('../Images/marvel.jpg');
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
 }
 /* for navigation bar */
@@ -31,25 +32,26 @@ body{
 /* for main content */
 .main{
     display: flex;
+    width: fit-content;
     height:fit-content ;
     align-items: center;
     overflow: hidden;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: 5vw 15vw;
     background-color: rgba(255, 0, 0, .5);
     border-radius: 20px;
   animation-name: example;
   animation-duration: 5s;
-  animation-delay: 1ms;
+  /* animation-delay: 1ms; */
 }
 
 @keyframes example {
-  0%   {height:0px; width:0px;}
-  100% {height:70vh;width:70vw}
+  0%   {height:0; width:0;}
+  100% {height:100%;width:75vw}
 }
 /* for container image */
 .main img{
-    height: 250px;
+    height: 20vw;
     border-radius: 20px;
 }
 /* for hero name */
