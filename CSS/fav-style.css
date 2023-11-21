@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* background styling */
+body{
+    font-family: sans-serif;
+    background-image: url(../Images/marvel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* showing the name of the page */
+.heading{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    font-size: 3rem;
+}
+h1{
+    background-image: url(../Images/1286361.jpg);
+    display: flex;
+    justify-content: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: thin;
+    color: white;
+}
+
+/* for navigation bar styling */
+.nav-bar{
+    display: flex;    
+    justify-content: flex-start;
+}
+.nav-bar a{
+    padding: 0px 5%;
+    font-size: 3rem;
+    border: 2px solid;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+/* fav hero list style */
+.list-container{
+    display: flex;
+    justify-content: center;
+    padding:2rem 0px;
+    flex-wrap: wrap;
+}
+.list{
+    width: 300px;
+    margin: 1rem;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+/* styling for hero info */
+.info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    font-size: 3rem;
+}
+.list .info>p{
+    margin-top: 5%;
+    text-align: center;
+    color: #0095ff;
+    font-weight: 600;
+    -webkit-text-stroke:1px white;
+}
+.list .info>img{
+    height: 30vh;
+}
+.character-info{
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    justify-content: center;
+}
+.btn{
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    width: 100%;
+    font-size: 1.5vw;
+}
