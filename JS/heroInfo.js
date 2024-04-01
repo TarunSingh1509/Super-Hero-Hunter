@@ -70,7 +70,7 @@ window.addEventListener('resize', function () {
           portraitImage.style.display = "block";
           // landscapeImage.style.display = "block";
      } else {
-          landscapeImage.style.display = "none";
+          // landscapeImage.style.display = "none";
           portraitImage.style.display = "block";
      }
 })
@@ -85,7 +85,8 @@ function addEvent() {
 function addToFavourites() {
 
      // If add to favourites button is cliked then
-     if (this.innerHTML == '<i class="fa-solid fa-heart fav-icon"></i> &nbsp; Add to Favourites') {
+     console.log('hellp')
+     if (this.innerHTML == '<i class=\"fa-solid fa-heart fav-icon\"></i> &nbsp; Add to Favourites') {
 
           // We cretate a new object containg revelent info of hero and push it into favouritesArray
           let heroInfo = {
@@ -135,6 +136,7 @@ function addToFavourites() {
           localStorage.setItem("favouriteCharacters", JSON.stringify(favouritesArray));
 
           this.innerHTML = '<i class="fa-solid fa-heart-circle-minus"></i> &nbsp; Remove from Favourites';
+          console.log('hee')
      }
      // For removing the character form favourites array
      else{
