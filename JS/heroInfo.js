@@ -79,13 +79,14 @@ window.addEventListener('resize', function () {
 function addEvent() {
      let favouriteButton = document.querySelector('.add-to-fav-btn');
      favouriteButton.addEventListener("click", addToFavourites);
+     console.log("hey")
 }
 
 
 function addToFavourites() {
 
+     console.log('hello')
      // If add to favourites button is cliked then
-     console.log('hellp')
      if (this.innerHTML == '<i class=\"fa-solid fa-heart fav-icon\"></i> &nbsp; Add to Favourites') {
 
           // We cretate a new object containg revelent info of hero and push it into favouritesArray
